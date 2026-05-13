@@ -90,6 +90,7 @@ def loop(task, evaluator_prompt, generator_prompt):
             context = "\n".join(
                 ["Previous attempts:", *[f"- {m}" for m in memory], f"\nFeedback: {feedback}"]
             )
+            print("CONTEXT=====",context)
             print("Generating new code implementation based on feedback...")
             print("Context for new generation:\n", context)
             thought, code = generate(generator_prompt, task, context=context)
