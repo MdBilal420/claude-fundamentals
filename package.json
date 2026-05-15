@@ -1,0 +1,21 @@
+{
+  "name": "codespaces-jupyter",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Welcome to your shiny new codespace! We've got everything fired up and running for you to explore Python and Jupyter notebooks.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@anthropic-ai/claude-agent-sdk": "^0.3.142",
+    "dotenv": "^17.4.2"
+  },
+  "devDependencies": {
+    "tsx": "^4.22.0",
+    "typescript": "^6.0.3"
+  }
+}

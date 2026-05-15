@@ -4,3 +4,5 @@ notebooks/cifar_net.pth
 .env
 
 workflows/__pycache__
+
+node_modules
